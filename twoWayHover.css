@@ -1,0 +1,58 @@
+
+
+
+path:hover {
+	fill:#555480;
+}
+
+
+
+#states *.on {
+  fill:#555480;
+}
+
+  .list-of-states li.on {
+    background: #555480;
+    color: white;
+    font-weight: bold;
+  }
+
+  path.on {
+    fill:#555480;
+  }
+
+
+
+.list-of-states {
+  text-align: left !important;
+  font-family: 'poppins', sans-serif;
+  color:#ab84bb;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  line-height: 1.5rem;
+  text-decoration: none;
+  list-style-type:none;
+
+  columns: 140px auto;
+  column-gap:8px;
+}
+
+
+.list-of-states li {
+  padding: 2px 4px;
+  display: inline-block;
+  width: 100%;
+}
+
+.no-underline-states {
+    text-decoration: none;
+    text-align: left !important;
+    font-family: 'poppins', sans-serif;
+    color:#ab84bb;
+    font-weight: 300;
+    font-size: 1rem;
+    list-style-type:none;
+}
+
